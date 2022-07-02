@@ -1,8 +1,9 @@
 { pkgs }: {
 	deps = [
 		pkgs.clang_12
-		pkgs.ccls
+		pkgs.cmake
 		pkgs.gdb
-		pkgs.gnumake
+    pkgs.boost
+    pkgs.gtest
 	];
 }
